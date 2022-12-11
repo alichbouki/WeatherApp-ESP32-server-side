@@ -24,8 +24,8 @@
 #define PWM_FRE 5000
 #define PWM_RES 8
 
-const char *ssid = "TP-LINK_AP_1DCC";
-const char *password = "86714846";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_PASS_WORD";
 
 DHT dht(DHT_PIN, DHT_TYPE);
 SparkFun_APDS9960 sens = SparkFun_APDS9960();
